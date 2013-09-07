@@ -8,9 +8,8 @@
 module.exports = function(obj) {
   if(obj instanceof Array) {
     return obj.slice(0);
-  } else {
-    return clone(obj);
   }
+  return clone(obj);
 };
 
 
