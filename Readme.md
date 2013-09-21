@@ -1,11 +1,10 @@
-
 # clone
 
   Clone Object/Array component
 
 ## Installation
 
-    $ component install bredele/clone
+    $ component install leafs/clone
 
 ## API
 
