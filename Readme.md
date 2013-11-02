@@ -4,9 +4,14 @@
 
 ## Installation
 
-    $ component install leafs/clone
+    $ component install bredele/clone
 
-## API
+## Usage
+
+```js
+var clone = require('clone');
+clonse(obj);
+```
 
    
 
