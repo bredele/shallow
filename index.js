@@ -6,10 +6,14 @@
  */
 
 module.exports = function(obj) {
+  var cp = null,
+      fn = Object.create;
   if(obj instanceof Array) {
-    return obj.slice(0);
+    cp = obj.slice(0);
+  } else {
+    cp = fn ? fn(obj) : clone(obj);
   }
-  return clone(obj);
+  return cp;
 };
 
 
