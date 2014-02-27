@@ -1,4 +1,4 @@
-var clone = require('..');
+var clone = require('clone');
 var assert = require('assert');
 
 
@@ -21,6 +21,6 @@ describe('clone', function(){
     };
     var copy = clone(obj);
     assert('olivier' === copy.name);
-    assert('olivier' === copy.github.name);
+    assert('olivier' === copy.github.name);    
   });
 });

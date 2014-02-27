@@ -4,16 +4,19 @@
 
 ## Installation
 
+with component:
+
     $ component install bredele/clone
 
+with nodejs:
+
+    $ npm install clone-bredele
 ## Usage
 
 ```js
 var clone = require('clone');
-clonse(obj);
+clone(obj);
 ```
-
-   
 
 ## License
 

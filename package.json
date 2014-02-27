@@ -1,7 +1,7 @@
 {
-  "name": "clone",
-  "version": "0.0.0",
-  "description": "Clone object/array",
+  "name": "clone-bredele",
+  "version": "0.0.1",
+  "description": "Clone objects",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,19 +15,17 @@
   },
   "keywords": [
     "clone",
+    "copy",
     "object",
     "array",
-    "deep",
-    "copy"
+    "deep"
   ],
-  "author": "Olivier Wietrich",
-  "license": "BSD",
-  "readmeFilename": "Readme.md",
-  "gitHead": "e0d99d494bf111c71710b74b6b50900a2017a24a",
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bredele/clone/issues"
   },
   "devDependencies": {
-    "mocha": "~1.12.1"
+    "mocha": "~1.17.1"
   }
 }
