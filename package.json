@@ -1,6 +1,6 @@
 {
-  "name": "clone-bredele",
-  "version": "0.0.1",
+  "name": "bredele-clone",
+  "version": "0.1.0",
   "description": "Clone objects",
   "main": "index.js",
   "directories": {
