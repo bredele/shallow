@@ -10,7 +10,8 @@ with component:
 
 with nodejs:
 
-    $ npm install clone-bredele
+    $ npm install bredele-clone
+    
 ## Usage
 
 ```js
