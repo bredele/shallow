@@ -1,8 +1,8 @@
 {
-  "name": "clone",
-  "repo": "bredele/clone",
-  "description": "Clone Object/Array component",
-  "version": "0.3.1",
+  "name": "shallow",
+  "repo": "bredele/shallow",
+  "description": "Object/Array shallow copy",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {},
   "development": {
