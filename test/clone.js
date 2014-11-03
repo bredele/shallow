@@ -1,3 +1,8 @@
+
+/**
+ * Test dependencies.
+ */
+
 var clone = require('..');
 var assert = require('assert');
 
@@ -8,8 +13,8 @@ describe('clone', function(){
   it('should clone an Array', function(){
     var arr = ['olivier', 'bredele'];
     var copy = clone(arr);
-    assert('olivier' === copy[0]);
-    assert('bredele' === copy[1]);    
+    assert.equal(copy[0], 'olivier');
+    assert.equal(copy[1],'bredele');
   });
 
   it('should clone an Object', function(){
@@ -20,7 +25,10 @@ describe('clone', function(){
       }
     };
     var copy = clone(obj);
-    assert('olivier' === copy.name);
-    assert('olivier' === copy.github.name);
+    assert.equal(copy.name, 'olivier');
+    assert.equal(copy.github.name,'olivier');
+
+    obj.country = 'canada';
+    assert.equal(copy.country, undefined);
   });
 });
