@@ -1,7 +1,7 @@
 {
   "name": "bredele-clone",
   "version": "1.0.0",
-  "description": "Object/Array shallow copy",
+  "description": "Object/Array deep copy",
   "main": "index.js",
   "directories": {
     "test": "test"
