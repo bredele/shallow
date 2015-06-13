@@ -12,8 +12,7 @@ module.exports = function(obj) {
 
 
 /**
- * Object shalow
- * copy.
+ * Object deep copy.
  * 
  * @param  {Object} obj 
  * @api private
