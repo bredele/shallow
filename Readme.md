@@ -1,6 +1,6 @@
 # clone
 
-  Object or Array shallow copy.
+  Object or Array deep copy.
 
 ## Installation
 
